@@ -20,6 +20,7 @@ services:
       - db
     volumes:
       - "./html:/var/www/html"
+      - "./html/data:/var/www/html/data"
     restart: always
     environment:
       POSTGRES_DB: 'nextcloud'
