@@ -1,2 +1,4 @@
+.gitignore
 /html
 /pgdata
+/scripts/__pycache__
